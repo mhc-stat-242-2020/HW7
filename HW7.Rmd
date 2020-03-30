@@ -58,5 +58,5 @@ crabs <- read_csv("http://www.evanlray.com/data/sleuth3/ex0722_crabs.csv")
 ### (k) Although you had R do the calculation of the test statistic and the p-value for the test in part (j), you should know how that statistic was calculated.  Describe how to calculate the test statistic for your test from part (j) in a paragraph or so.  Include a discussion of how the degrees of freedom for the statistic are found.  Does a large value of the statistic offer strong or weak evidence against the null hypothesis?  Why?
 
 
-### (l) How were the $\beta$ coefficients in your models above estimated?  You can answer in just a sentence or two.  I talked about this for about 3 minutes on Wed., Oct 16 and I just want you to remind yourself of this important idea that we have not spent much time on.
+### (l) How were the $\beta$ coefficients in your models above estimated?  You can answer in just a sentence or two.
 
