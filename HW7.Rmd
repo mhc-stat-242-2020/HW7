@@ -27,7 +27,7 @@ crabs <- read_csv("http://www.evanlray.com/data/sleuth3/ex0722_crabs.csv")
 ### (a) Create an appropriate plot of the data involving all three variables.  Does it appear that an additive model or a model with interactions between species and height would be more appropriate?
 ```{r}
 ```
-### (b) Fit a multiple regression model to the data, allowing for different slopes for the different species.  In this model, use the original Height and Force variables as explanatory variables.  Create residual diagnostic plots of your model fit and calculate the standard deviation of the residuals within each group.  Discuss any conditions for the regression model that are not satisfied.
+### (b) Fit a multiple regression model to the data, allowing for different slopes for the different species.  In this model, use the original Height and Force variables as explanatory and response variables, respectively.  Create residual diagnostic plots of your model fit and calculate the standard deviation of the residuals within each group.  Discuss any conditions for the regression model that are not satisfied.
 ```{r}
 ```
 ### (c) Find a set of transformations of the data so that the conditions of the multiple regression model are better satisfied (Note: I think you can do well enough with transformations of the response variable only).  Verify that you have succeed by discussing residual diagnostic plots and standard deviations of the residuals across the different species.  Recreate your plot of the data from part (a), but with your transformed variables this time.
